@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div *ngFor="let val of values">
+    {{invalid.notReal}}
+  </div>
+  <button ion-button (click)="goToTabs()">Go To Tabs</button>
+</ion-content>
